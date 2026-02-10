@@ -19,6 +19,7 @@ nav {
 
 /***********************  Footer Section   **************************/
 footer {
+  color: #000000;
   display: flex;
   justify-content: center;
   padding: 10px;
