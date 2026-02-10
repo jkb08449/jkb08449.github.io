@@ -28,6 +28,17 @@ footer {
 
 }
 
+footer a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
 /*********** Splash Page ************************/
 header {
   text-align: center;
