@@ -64,7 +64,7 @@ header h1 {
 }
 
 header img {
-  width: 250px;
+  width: 300px;
   border-radius: 50px;
   border: 4px solid #2b2b2b;
 }
@@ -91,7 +91,8 @@ hr {
 section h3 {
   font-family: Montserrat, "Roboto", sans-serif;
   color: #2b2b2b;
-  margin-bottom: 20px;
+  margin: 30px 0 20px 0;
+  padding-left: 15px;
   font-size: 25px;
 }
 
@@ -100,7 +101,7 @@ section dl {
   grid-template-columns: 1fr 1fr;
   gap: 10px;
   background-color: #eee5dc;
-  padding: 10px;
+  padding: 10px 10px 10px 30px;
   border: 2px solid #cab7a3;
 
 
@@ -110,6 +111,8 @@ section ul {
   background-color: #eee5dc;
   padding: 10px 10px 10px 30px;
   margin-bottom: 15px;
+    list-style-position: inside;
+
   border: 2px solid #cab7a3;
 
 }
@@ -123,17 +126,14 @@ section a {
 section a:hover {
   color: #2b2b2b;
   text-decoration: underline;
-  /** I was just having fun messing around with how to make the link look different
-  I found letter-spacing when searching for how to implement my ideas **/
-  letter-spacing: 4px;
-  font-style: italic;
 }
 
 /**************   Projects   *****************/
 .three-col {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 15px;
+  gap: 30px;
+  padding: 0 30px;
 }
 
 .card img {
@@ -168,7 +168,7 @@ section a:hover {
 
 .card {
   background-color:  #eee5dc;
-  padding: 10px;
+  padding: 20px;
   border: 1px solid #ab9379;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   margin-bottom: 20px;
